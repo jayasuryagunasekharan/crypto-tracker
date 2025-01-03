@@ -3,7 +3,7 @@
 import { AssetHistory } from '@/lib/types';
 import { LineChart, Line, XAxis, YAxis, Tooltip } from 'recharts';
 import { LoadingCard } from './loading-card';
-import { ChartWrapper } from './chart-wrapper';
+import ChartWrapper from './chart-wrapper';
 
 interface PriceChartProps {
   data: AssetHistory[];
